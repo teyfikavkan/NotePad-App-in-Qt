@@ -1,5 +1,19 @@
+/**
+  * Forgotten Passwords
+  * @file forgetpassword.h
+  * @version 1.0
+  * @date 19.05.2017
+  * @author Mustafa Teyfik Avkan
+  * @title
+  *
+  */
+
+
+
 #include "forgetpassword.h"
 #include "ui_forgetpassword.h"
+
+
 
 ForgetPassword::ForgetPassword(QWidget *parent) :
     QDialog(parent),

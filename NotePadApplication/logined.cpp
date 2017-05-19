@@ -1,7 +1,18 @@
+/**
+  * Logined in System
+  * @file login.h
+  * @version 1.0
+  * @date 19.05.2017
+  * @author Mustafa Teyfik Avkan
+  * @title
+  *
+  */
+
+
+
+
 #include "logined.h"
 #include "ui_logined.h"
-
-
 
 Logined::Logined(QWidget *parent) :
     QDialog(parent),

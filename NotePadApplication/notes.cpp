@@ -1,5 +1,19 @@
+/**
+  * Some Settings in Users' Notes
+  * @file login.h
+  * @version 1.0
+  * @date 19.05.2017
+  * @author Mustafa Teyfik Avkan
+  * @title
+  *
+  */
+
+
+
 #include "notes.h"
 #include "ui_notes.h"
+
+
 
 Notes::Notes(QWidget *parent) :
     QDialog(parent),
@@ -37,4 +51,10 @@ void Notes::loadNoteInformation()
 Notes::~Notes()
 {
     delete ui;
+}
+
+void Notes::on_pushButton_clicked()
+{
+
+    this->hide();
 }

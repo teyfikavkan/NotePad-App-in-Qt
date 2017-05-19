@@ -1,3 +1,15 @@
+/**
+  * Login to System
+  * @file login.h
+  * @version 1.0
+  * @date 19.05.2017
+  * @author Mustafa Teyfik Avkan
+  * @title
+  *
+  */
+
+
+
 #include "login.h"
 #include "ui_login.h"
 
@@ -38,7 +50,6 @@ void Login::on_loginBttn_clicked()
        _username=ui->lineUsername->text();
        _password=encryptedPassword(ui->linePassword->text());
        int cnt=0;
-       qDebug()<<_password;
 
 
        QSqlQuery qry;
@@ -53,7 +64,6 @@ void Login::on_loginBttn_clicked()
 
              logined.setModal(true);
              int idnumber=qry.value(0).toInt();
-             qDebug()<<idnumber;
               logined.setID(idnumber);
              this->hide();
              logined.exec();
