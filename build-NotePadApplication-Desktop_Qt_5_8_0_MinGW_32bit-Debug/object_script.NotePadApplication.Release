@@ -1,0 +1,14 @@
+INPUT(
+./release\main.o
+./release\login.o
+./release\signin.o
+./release\logined.o
+./release\notes.o
+./release\forgetpassword.o
+./release\qrc_resourceimages.o
+./release\moc_login.o
+./release\moc_signin.o
+./release\moc_logined.o
+./release\moc_notes.o
+./release\moc_forgetpassword.o
+);
